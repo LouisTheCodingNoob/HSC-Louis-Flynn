@@ -1,0 +1,21 @@
+body {
+	background-color: rgb(255,192,203);
+}
+
+h1 {
+	color: LightSkyBlue;
+
+}
+h2 {
+	color: LightSkyBlue;
+
+}
+
+h3 {
+	color: LightSkyBlue;
+	background-color: #ffffe6;
+	opacity: 0.8;
+}
+
+ul {
+	background-color: hsla(350, 100%, 95%,1);
