@@ -1,0 +1,24 @@
+body {
+	font-family: Georgia, Times, serif;	
+}
+
+p {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.italicize-text {
+	font-style: italic;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+b {
+	text-decoration: underline;
+}
+
+#s1 {
+	color: red;
+}
