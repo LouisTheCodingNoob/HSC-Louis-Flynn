@@ -1,0 +1,40 @@
+div {
+	height: 300px;
+	width: 400px;
+	/*background-color: gray;*/
+}
+
+#s1 {
+	height: 75%;
+	width: 75%;
+	background-color: lightgreen;
+}
+
+p {
+	/*min-width: 1200px;*/
+	max-width: 500px;
+	min-height:50px;
+	/*max-height: 50px;*/
+	background-color: lightgray;
+}
+
+h2 {
+	border: red dashed thick;
+	/*padding: 100px;*/
+	margin:100px;
+	/*border-color: red;
+	border-style: dashed;
+	border-width: thick;*/
+	/*
+	border-width: thick;
+	border-style: dashed;
+	border-color: red;*/
+}
+
+li {
+	display: inline;
+}
+
+#s3 {
+	visibility: hidden;
+}
