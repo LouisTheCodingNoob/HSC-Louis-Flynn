@@ -1,0 +1,43 @@
+h3 {
+		text-shadow: 1px 1px 0px red;
+}
+
+p {
+		text-indent: 20px;
+		line-height: 1.4em;
+		letter-spacing: .05em;
+		word-spacing: .1em;
+}
+
+.sub-header {
+	text-align: center;
+}
+
+p:first-letter {
+	font-size: 200%;
+}
+
+p:first-line {
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+button {
+	background-color: green;
+}
+
+button:active {
+	background-color: orange;
+}
