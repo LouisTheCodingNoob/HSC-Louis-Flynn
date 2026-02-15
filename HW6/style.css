@@ -1,0 +1,56 @@
+ul {
+	list-style-position: inside;
+	list-style-image: url("Sunglasses_small.png");
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+/*
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}*/
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+td th{
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+tr:hover {
+	background-color: aqua;
+}
+
+fieldset {
+	width: 350;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+legend {
+	background-color: lightblue;
+	border: 1px solid blue;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+#personal {
+	text-align: right;
+}
