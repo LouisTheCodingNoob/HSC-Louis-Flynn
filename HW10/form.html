@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<form action="#" method="POST">
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="first" size="30" maxlength="100" required /></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="last" size="30" maxlength="100" required /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email" size="30" maxlength="100" required /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password" size="30" maxlength="20" required /></td>
+			</tr>
+			<tr>
+				<td>Message:</td>
+				<td><textarea name="comments" cols="40" rows="4" maxlength="500" >Enter your message...</textarea></td>
+			</tr>
+			<tr>
+				<td>Which best describes you?</td>
+				<td>
+					<input type="radio" name="type" value="client" checked="checked" /> Client
+					<input type="radio" name="type" value="prospect" /> Prospect
+					<input type="radio" name="type" value="student" /> Student
+					<input type="radio" name="type" value="student" /> Other
+				</td>
+			</tr>
+			<tr>
+				<td>Sign me up for emails</td>
+				<td>
+					<input type="checkbox" name="subscribe" value="subscribe" /> 
+				</td>
+			</tr>
+			<tr>
+				<td>Attachment</td>
+				<td>
+					<input type="file" name="attachment" />
+				</td>
+			</tr>
+			<tr>
+				<td><button type="submit">Send</button></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

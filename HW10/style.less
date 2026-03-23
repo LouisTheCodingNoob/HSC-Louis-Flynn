@@ -1,0 +1,35 @@
+@text-shadow-color: #000000;
+@text-indent-size: 20px;
+@base-font-size: 16px;
+@scale-factor: 1.25;
+
+@scaled-font-size: @base-font-size * @scale-factor;
+
+.text-styling() {
+	text-indent: 20px;
+	line-height: 1.4em;
+	letter-spacing: .05em;
+	word-spacing: .1em;
+}
+
+h3 {
+	text-shadow: 1px 1px 0px @text-shadow-color;
+	font-size: @scaled-font-size;
+}
+
+p {
+	.text-styling();
+
+	&:first-letter {
+		font-size: 200%;
+	}
+
+	&.class1 {
+		color: green;
+	}
+}
+
+.sub-header {
+	.text-styling();
+}
+
