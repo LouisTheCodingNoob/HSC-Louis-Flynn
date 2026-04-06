@@ -1,0 +1,39 @@
+img.large {
+	width: 500px;
+	height: 500px;
+}
+
+img.medium {
+	width: 250px;
+	height: 250px;
+}
+
+img.small {
+	width: 100px;
+	height: 100px;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.align-right {
+	float: right;
+	margin-left: 10px;
+}
+
+img.align-center {
+	display: block;
+	margin: 0px auto;
+}
+
+p.text-with-background-image {
+	color: white;
+	font-size: 50px;
+	background-image: url("2.png");
+	text-shadow: gray;
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 100% 50%
+}

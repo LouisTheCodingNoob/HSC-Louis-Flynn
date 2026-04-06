@@ -1,0 +1,334 @@
+				/* COLOR */
+
+body {
+	background-color: rgb(200,2,50);
+}
+
+p {
+	color: White;
+
+}
+
+h1 {
+	color: LightYellow;
+
+}
+h2 {
+	color: LightYellow;
+
+}
+
+h3 {
+	color: LightYellow;
+	background-color: #ffff00;
+	opacity: 0.8;
+}
+
+ul {
+	background-color: hsla(500, 100%, 95%,1);
+
+
+
+
+
+
+
+
+				/* TEXT */
+
+body {
+	font-family: Georgia, Times, serif;	
+}
+
+p {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.italicize-text {
+	font-style: italic;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+b {
+	text-decoration: underline;
+}
+
+#s1 {
+	color: red;
+}
+
+h3 {
+		text-shadow: 1px 1px 0px red;
+}
+
+p {
+		text-indent: 20px;
+		line-height: 1.4em;
+		letter-spacing: .05em;
+		word-spacing: .1em;
+}
+
+.sub-header {
+	text-align: center;
+}
+
+p:first-letter {
+	font-size: 200%;
+}
+
+p:first-line {
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+button: {
+	background-color: green;
+}
+
+button:active {
+	background-color: orange;
+}
+
+input:focus {
+	background-color: purple;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+				/* BOXES */
+
+div {
+	height: 300px;
+	width: 400px;
+	/*background-color: gray;*/
+}
+
+#s1 {
+	height: 75%;
+	width: 75%;
+	background-color: lightgreen;
+}
+
+p {
+	/*min-width: 1200px;*/
+	max-width: 500px;
+	min-height:50px;
+	/*max-height: 50px;*/
+	background-color: lightgray;
+	/*overflow: 50%;*/
+}
+
+h2 {
+	border: white dashed thick;
+	/*padding: 100px;*/
+	margin:100px;
+	/*border-color: red;
+	border-style: dashed;
+	border-width: thick;*/
+	/*
+	border-width: thick;
+	border-style: dashed;
+	border-color: red;*/
+}
+
+li {
+	display: inline;
+}
+
+#s3 {
+	visibility: hidden;
+}
+
+
+
+
+
+
+				/* LISTS, TABLES AND FORMS */
+
+ul {
+	list-style-position: inside;
+	list-style-image: url("Sunglasses_small.png");
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+/*
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}*/
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+td th{
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+tr:hover {
+	background-color: aqua;
+}
+
+fieldset {
+	width: 350;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+legend {
+	background-color: lightblue;
+	border: 1px solid blue;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+#personal {
+	text-align: right;
+}
+
+
+
+
+
+
+
+				/* LAYOUT */
+
+#p1 {
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+
+#head1 {
+	position: absolute;
+	top: 0px;
+	left: 800px;
+	width: 250px;
+}
+
+h1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: darkgray;
+	z-index: 10;
+	/*opacity: 80%;*/
+}
+
+.header-list {
+	margin-top: 100px;
+}
+
+blockquote {
+	float: right;
+	width: 275px;
+	font-size: 130%;
+	font-style: italic;
+	font-family: Impact, Georgia, Papyrus;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+}
+
+.column1, .column2, .column3 {
+	width: 500px;
+	float: left;
+	margin: 10px;
+}
+
+
+
+
+
+
+				/* IMAGES*/
+
+img.large {
+	width: 250px;
+	height: 290px;
+}
+
+img.medium {
+	width: 250px;
+	height: 250px;
+}
+
+img.small {
+	width: 100px;
+	height: 100px;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.align-right {
+	float: right;
+	margin-left: 10px;
+}
+
+img.align-center {
+	display: block;
+	margin: 0px auto;
+}
+
+p.text-with-background-image {
+	color: white;
+	font-size: 50px;
+	background-image: url("2.png");
+	text-shadow: gray;
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 100% 50%
+}

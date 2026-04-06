@@ -1,0 +1,46 @@
+#p1 {
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+
+#head1 {
+	position: absolute;
+	top: 0px;
+	left: 800px;
+	width: 250px;
+}
+
+h1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: darkgray;
+	z-index: 10;
+	/*opacity: 80%;*/
+}
+
+.header-list {
+	margin-top: 100px;
+}
+
+blockquote {
+	float: right;
+	width: 275px;
+	font-size: 130%;
+	font-style: italic;
+	font-family: Impact, Georgia, Papyrus;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+}
+
+.column1, .column2, .column3 {
+	width: 500px;
+	float: left;
+	margin: 10px;
+}
